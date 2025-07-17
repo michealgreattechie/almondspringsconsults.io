@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Almondsprings Consults</title>
+  <meta name="title" content="Almondsprings Consults">
+  <meta name="description" content="This is an education consultancy website, copyright &copy; 2025 Almondsprings Consults.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="210" height="100" alt="EduWeb logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="destination.html" class="navbar-link" data-nav-link>Study Destination</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="toggle search" title="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart" title="Cart">
+          <!-- <ion-icon name="cart-outline" aria-hidden="true"></ion-icon> -->
+
+          <!-- <span class="btn-badge">0</span> -->
+        </button>
+
+        <a href="https://calendly.com/bezaltech224/30min" class="btn has-before">
+          <span class="span">Schedule a Call</span>
+
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              Studying Anywhere With Almondsprings <span class="span"> Is Possible</span>
+            </h1>
+
+            <p class="hero-text">
+           Dreaming of studying in London, Toronto, Berlin, or Sydney, you're not alone. We guide students like you from uncertainty to takeoff, making your study-abroad dream possible.
+            </p>
+
+            <a href="#" class="btn has-before">
+              <span class="span">Get started</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="./assets/images/student (1).jpg" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="./assets/images/student (2).jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+
+            <img src="./assets/images/hero-shape-1.png" width="380" height="190" alt="" class="shape hero-shape-1">
+
+            <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+<!-- Section: Study Life -->
+<section class="alm-wave-wrap">
+  <div class="alm-wave-flex">
+    <div class="alm-info-bloc">
+      <h2 class="alm-wave-title">Enjoy Life by the Waves</h2>
+      <p class="alm-wave-para">
+        Choosing where to study is important, but what truly shapes your future is how you approach your journey—not just the location. Whether you’re headed to a bustling city in the U.S., a quiet town in Ireland, or a tech hub in Germany, every destination offers unique opportunities to grow, explore, and thrive as a student.
+      </p>
+      <p class="alm-wave-para">
+        Studying abroad helps you step outside your comfort zone, adapt to new cultures, and gain a global perspective that employers, educators, and communities value more than ever. The flexibility to study in a country that aligns with your budget, career goals, or language preference means you don’t have to wait for the “perfect” place—you create your own perfect path.
+      </p>
+    </div>
+    <div class="alm-img-bloc">
+      <div class="alm-img-card">
+        <img src="assets/images/happy-student-girl.jpg" alt="Happy student by the waves" />
+        <div class="alm-img-badge">High Quality Life</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Destination Cards -->
+<section class="alm-destination-sec">
+  <h2 class="alm-destination-head">Your Dream Study Destination <span class="alm-dream-tag">Awaits</span></h2>
+  <p class="alm-destination-sub">Begin an exciting academic journey in these varied and welcoming study locations!</p>
+
+  <div class="alm-destination-wrapper">
+    <!-- First 3 -->
+    <div class="alm-destination-row">
+      <div class="alm-destination-card">
+        <img src="assets/images/uk.jpg" alt="United Kingdom" />
+        <span>United Kingdom</span>
+      </div>
+      <div class="alm-destination-card">
+        <img src="assets/images/CANADA.jpeg" alt="Canada" />
+        <span>Canada</span>
+      </div>
+      <div class="alm-destination-card">
+        <img src="assets/images/austr.jpeg" alt="Australia" />
+        <span>Australia</span>
+      </div>
+    </div>
+
+    <!-- Separator Line -->
+    <hr class="alm-destination-line" />
+
+    <!-- Last 3 -->
+    <div class="alm-destination-row">
+      <div class="alm-destination-card">
+        <img src="assets/images/FRANCE.jpg" alt="Germany" />
+        <span>France</span>
+      </div>
+      <div class="alm-destination-card">
+        <img src="assets/images/ireland.jpeg" alt="Ireland" />
+        <span>Ireland</span>
+      </div>
+      <div class="alm-destination-card">
+        <img src="assets/images/usa.webp" alt="USA" />
+        <span>USA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .vision-veil-zone {
+      position: relative;
+      background-image: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .veil-layered-glass {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6); /* True overlay */
+      z-index: 1;
+    }
+
+    .dream-textbox-capsule {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .dream-textbox-capsule h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+
+    .dream-textbox-capsule p {
+      font-size: 1.3em;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    .journey-button-flare {
+      display: inline-block;
+      background-color: hsla(133, 83%, 43%, 0.932);
+      color: #fff;
+      padding: 14px 32px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .journey-button-flare:hover {
+      background-color: #a87902;
+    }
+
+    @media (max-width: 768px) {
+      .dream-textbox-capsule h1 {
+        font-size: 2.2em;
+      }
+
+      .dream-textbox-capsule p {
+        font-size: 1.1em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .dream-textbox-capsule h1 {
+        font-size: 1.8em;
+      }
+
+      .dream-textbox-capsule p {
+        font-size: 1em;
+      }
+
+      .journey-button-flare {
+        padding: 12px 26px;
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="vision-veil-zone">
+    <div class="veil-layered-glass"></div>
+    <div class="dream-textbox-capsule">
+      <h1>Studying Anywhere is Not as Hard as You Think</h1>
+      <p>With Almondsprings Consults, your dream to study abroad becomes a guided, stress-free reality. Whether it’s the UK, Canada, or even New Zealand — we help you every step of the way.</p>
+      <a href="mailto:info@almondspringsconsults.com" class="journey-button-flare">Talk to Us</a>
+    </div>
+  </section>
+
+<!-- Section: Partner Logos Infinite Slider -->
+<section class="alm-infinite-sec">
+  <h2 class="alm-partner-head">Our Accredited Partners</h2>
+  <div class="alm-slider-shell">
+    <div class="alm-slide-track" id="alm-slide-track">
+      <!-- Repeat slides -->
+      <div class="alm-slide"><img src="assets/images/download (1).jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (1).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (10).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (2).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (4).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (5).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (7).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download (8).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download.jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/download.png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (10).jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (10).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (11).jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (11).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (12).jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (12).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (13).jpeg" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (13).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (16).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (3).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (4).png" alt=""></div>
+      <div class="alm-slide"><img src="assets/images/images (5).png" alt=""></div>
+      <!-- Add remaining images -->
+    </div>
+  </div>
+</section>
+
+
+<style>
+  .alm-destination-sec {
+  padding: 60px 20px;
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+.alm-destination-head {
+  font-size: 3.5rem;
+  color: hsla(133, 83%, 43%, 0.932);
+  margin-bottom: 10px;
+}
+.alm-dream-tag {
+  color: #f59e0b;
+}
+.alm-destination-sub {
+  color: #444;
+  font-size: 1.6em;
+  margin-bottom: 40px;
+}
+
+.alm-destination-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.alm-destination-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.alm-destination-card {
+  width: 300px;
+  height: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.alm-destination-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.alm-destination-card span {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.alm-destination-line {
+  width: 100%;
+  height: 0.5px;
+  background: hsla(133, 83%, 43%, 0.932);
+  border: none;
+  margin: 40px auto;
+  border-radius: 1px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .alm-destination-card {
+    width: 90%;
+    height: 300px;
+  }
+  .alm-destination-card span {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 600px) {
+  .alm-destination-card {
+    height: 250px;
+  }
+  .alm-destination-head {
+    font-size: 2.5em;
+  }
+  .alm-destination-sub {
+    font-size: 1.2em;
+  }
+}
+
+/* ========== Wave Section ========== */
+.alm-wave-wrap {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+.alm-wave-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+.alm-info-bloc {
+  flex: 1 1 50%;
+}
+.alm-wave-title {
+  font-size: 3em;
+  color: hsla(133, 83%, 43%, 0.932);
+  margin-bottom: 20px;
+}
+.alm-wave-para {
+  font-size: 1.5em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.alm-img-bloc {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.alm-img-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.alm-img-card img {
+  width: 100%;
+  display: flex;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.alm-img-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: white;
+  color: #1d4ed8;
+  font-size: 0.875rem;
+  padding: 6px 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-weight: 500;
+}
+
+/* ========== Destination Cards ========== */
+.alm-destination-sec {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.alm-destination-head {
+  font-size: 3.5rem;
+  color: hsla(133, 83%, 43%, 0.932);
+  margin-bottom: 10px;
+}
+.alm-dream-tag {
+  color: #f59e0b;
+}
+.alm-destination-sub {
+  color: #444;
+  font-size: 1.6em;
+  margin-bottom: 40px;
+}
+.alm-destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.alm-destination-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.alm-destination-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.alm-destination-card span {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+/* ========== Infinite Slider ========== */
+.alm-infinite-sec {
+  margin-top: 100px;
+}
+.alm-partner-head {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+.alm-slider-shell {
+  overflow: hidden;
+  padding-left: 1rem;
+}
+.alm-slide-track {
+  display: flex;
+  width: fit-content;
+  animation: almScroll 60s linear infinite;
+}
+.alm-slide {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 160px;
+  margin-right: 16px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.alm-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+@keyframes almScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.alm-slider-shell:hover .alm-slide-track {
+  animation-play-state: paused;
+}
+
+/* ========== Responsive Media Queries ========== */
+@media (max-width: 768px) {
+  .alm-wave-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .alm-wave-title {
+    font-size: 2em;
+  }
+  .alm-wave-para {
+    font-size: 1.2em;
+  }
+  .alm-partner-head {
+    font-size: 2em;
+  }
+}
+@media (max-width: 480px) {
+  .alm-wave-title {
+    font-size: 2em;
+  }
+  .alm-wave-para {
+    font-size: 1em;
+  }
+  .alm-destination-head {
+    font-size: 2em;
+  }
+  .alm-destination-sub {
+    font-size: 1.2em;
+  }
+  .alm-slide {
+    width: 140px;
+    height: 100px;
+    margin-right: 10px;
+  }
+}
+</style>
+
+
+<script>
+  const almTrack = document.getElementById('alm-slide-track');
+  const almSlides = [...almTrack.children];
+  almSlides.forEach(slide => {
+    almTrack.appendChild(slide.cloneNode(true));
+  });
+</script>
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="200" height="50" alt="almondspringsconsults">
+          </a>
+
+          <p class="footer-brand-text">
+           Almondsprings Consults was founded with one simple mission:
+            to make global education accessible, achievable,
+             and transformational for every Nigerian student with a dream.
+          </p>
+
+          <!-- <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div> -->
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+234 81450871612</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info.almondspringsconsults.com" class="footer-link">info.almondspringsconsults.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="footer-link">Instructor</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instructor Profile</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">News & Articles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2025 All Rights Reserved by <a href="#" class="copyright-link">Almondsprings Consults</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
